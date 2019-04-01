@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.main-containner {
+    padding: 50px;
+}
+
+// States
+.ng-invalid.ng-touched:not(form) {
+    border: 1px solid red;
+    transition: all 0.2s;
+}
